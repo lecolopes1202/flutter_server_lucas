@@ -13,7 +13,8 @@ public class EmployeeEntity {
 	public int id;
 	public String firstName;
 	public String lastName;
-	// public String mapLocXY;
+	public String mapLocX; // adicionei
+	public String mapLocY; // adicionei
 
 	
 	public EmployeeEntity() {
@@ -42,5 +43,22 @@ public class EmployeeEntity {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+	// adicionei get e set para os 2 parametros do Canvas
+	public String getMapLocX() {
+		return mapLocX;
+	}
+
+	public void setMapLocX(String mapLocX) {
+		this.mapLocX = mapLocX;
+	}
+
+	public String getMapLocY() {
+		return mapLocY;
+	}
+
+	public void setMapLocY(String mapLocY) {
+		this.mapLocY = mapLocY;
+	}
+
 	
 }
