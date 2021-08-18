@@ -13,6 +13,8 @@ public class EmployeeEntity {
 	public int id;
 	public String firstName;
 	public String lastName;
+	// public String mapLocXY;
+
 	
 	public EmployeeEntity() {
 	}
